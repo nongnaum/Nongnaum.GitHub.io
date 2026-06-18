@@ -3,12 +3,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    /* เปลี่ยนพื้นหลังของหน้าเว็บเป็นสีชมพูอ่อนพาสเทล */
+    background-color: #ffe4e1; 
     color: #333;
 }
 
 header {
-    background: #4CAF50;
+    /* ปรับแถบหัวข้อด้านบนเป็นสีชมพูเข้ม (เข้ากับธีม) */
+    background: #ff69b4; 
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -28,10 +30,15 @@ section {
     max-width: 800px;
     background: white;
     border-radius: 8px;
+    /* เพิ่มเงาจางๆ ให้กล่องข้อความดูลอยเด่นขึ้นมาจากพื้นหลังสีชมพู */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
 }
+
 h2 {
-  color: #4CAF50;
+    /* เปลี่ยนสีหัวข้อของแต่ละส่วนเป็นสีชมพูเข้ม */
+    color: #ff69b4; 
 }
+
 .project {
     margin-bottom: 20px;
 }
@@ -40,10 +47,12 @@ h2 {
     margin: 0 0 10px;
     color: #333;
 }
+
 ul {
     list-style-type: square; 
     padding-left: 20px;
 }
+
 footer {
     text-align: center;
     padding: 10px 0;
